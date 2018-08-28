@@ -1,0 +1,203 @@
+body
+{
+background:url(box-bg.png);
+}
+.wrap{
+	width:95%;
+	margin:0 auto;
+}
+.header{
+	background: url(box1.png) repeat-x;
+}
+.header_detail{
+	padding: 25px 0 10px 0;
+	display:block;
+}
+.clear
+{
+clear:both;
+}
+
+.logo
+{
+float:left;
+margin-top:20px;
+}
+.contact_info
+{
+float:right;
+}
+.contact_info p
+{
+font-size: 22px;
+font-family:SquireD;
+}
+.contact_info p a
+{
+text-decoration:none;
+}
+
+.contact_info p a:hover
+{
+font-family:Squire Regular;
+color:Red;
+}
+
+.header_nav{
+	background: url(nav_box1.png) repeat-x;
+}
+
+
+.header_nav ul li{
+	display:block;
+	border-left: 1px solid white;
+	float: left;
+}
+
+.header_nav ul li a{
+	color:white;
+	text-decoration:none;
+	text-transform: uppercase;
+	display: block;
+	padding: 15px 80px;
+	vertical-align:center;
+	}
+
+.header_nav ul li a:hover
+{
+	color: #ff9900;
+	background: #454545;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+.text {
+  background-color:white;
+  color: black;
+  font-size: 25px;
+  font-family:"Clarendon BT";
+  padding: 8px 12px;
+  -webkit-text-stroke:.5px white;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+
+.start:before
+{
+content:url(quote-1.png);
+vertical-align: super; 
+padding-right:5px;
+}
+
+.end:after
+{
+content:url(quote-2.png);
+vertical-align: super;
+padding-right:5px;
+}
+
+.quit p
+{
+font-size:35px;
+color:#3B3B3B;
+display:block;
+text-align: center;
+}
+
+.content-grids{
+padding: 3.5em 0 3.7em 0;
+background: url(box2.png);
+margin:0 0 40px 0px;
+}
+
+.content-grid-pic{
+	float:left;
+	width:25%;
+	margin-top: 27px;
+}
+
+
+.content-grid-pic img{
+	display: block;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	box-shadow: 0px 0px 10px rgba(119, 119, 119, 0.25)
+}
+
+.content-grid-info{
+	float:right;
+	width: 69.5%;
+}
+.content-grid-info h3{
+	font-family: Times New Roman;
+	font-size: 1.8em;
+	font-weight: 400;
+	color: #995c00;
+	text-transform: uppercase;
+}
+.content-grid{
+	float:left;
+	width:33.333%;
+}
+
+.footer
+{
+
+text-align: center;
+
+}
+.back
+{
+background:url(box2.png);
+height:80px;
+
+position:absolute;
+width:100%
+}
+
+
+div.gallery-grid {
+    margin: 5px;
+    border: 4px solid black;
+    float: left;
+    width: 30%;
+}
+
+div.gallery-grid:hover {
+    border: 1px solid #777;
+
+    
+}
+
+div.gallery-grid img {
+    width: 100%;
+    height:200px;
+}
+
+
+div.gallery-grid h4{
+ text-align: center;
+color:red;
+}
+
+
+div.gallery-button {
+    padding: 15px;
+    text-align: center;
+}

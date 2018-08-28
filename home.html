@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Pooja Printers | Home</title>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div class="header">
+<div class="wrap">
+<div class="header_detail">
+<div class="logo"> <a href="home.html"><img src="logo.jpg" title="logo" width="250px"/></a> </div>
+<div class="contact_info">
+<p class="phone">Call us : <a href="#">9650149192</a></p>
+<p class="gpa">Email : <a href="#">poojaprinters.sharma@gmail.com</a></p>
+<p class="code">Address :<a href="#">Noida</a></p>
+</div>
+<div class="clear"> </div>
+</div>
+</div>
+
+<div class="header_nav">
+<div class="wrap">
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="order.html">Order</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="contact.html">Contact</a></li>
+<div class="clear"> </div>
+</ul>
+</div>
+</div>
+</div>
+<div class="clear"> </div>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="ss1.jpg" style="width:100%">
+  <div class="text">Marriage Cards</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="ss2.jpg" style="width:100% ">
+  <div class="text">Visting Cards</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="ss3.jpg" style="width:100%">
+  <div class="text">All type Advertisement Items</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<div class="content">
+<div class="quit">
+<p><span class="start">Satisfaction </span> 
+is our <span class="end">Motto .</span></p>
+</div>
+
+<div class="content-grids">
+<div class="wrap">
+<div class="content-grid">
+<div class="content-grid-pic">
+<a href="#"><img src="icon1.png" title="icon" /></a>
+</div>
+<div class="content-grid-info">
+<h3>24X7 PHONE SUPPORT</h3>
+<a href="#">Read More</a>
+</div>
+<div class="clear"> </div>
+</div>
+
+
+<div class="content-grid">
+<div class="content-grid-pic">
+<a href="#"><img src="icon2.png" title="icon" width=100px; /></a>
+</div>
+<div class="content-grid-info">
+<h3>BEST QUALITY</h3>
+<a href="#">Read More</a>
+</div>
+<div class="clear"> </div>
+</div>
+
+<div class="content-grid">
+<div class="content-grid-pic">
+<a href="#"><img src="icon3.png" title="icon" width=100px; /></a>
+</div>
+<div class="content-grid-info">
+<h3>FAST SERVICE</h3>
+<a href="#">Read More</a>
+</div>
+<div class="clear"> </div>
+</div>
+</div>
+<div class="clear"> </div>
+</div>
+
+<div class="footer">
+<h2>This Web Page is Created By SHIVAM SHARMA</h2></div>
+
+</body>
+</html>
